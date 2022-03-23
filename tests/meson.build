@@ -1,4 +1,4 @@
-gtest_dep = dependency('gtest', main : true, required : true)
+gtest_dep = dependency('gtest', main : false, required : true)
 
 testexe = executable('IDTests', 'src/IDTests.cpp',
                      include_directories : public_headers,
